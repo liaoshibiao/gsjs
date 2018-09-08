@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/Ourcompany.css" />
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">春蕴商务</h1>
+		</header>
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/2.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/1.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/2.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/1.jpg">
+						</a>
+					</div>
+				</div>
+				<!--通常轮播图中那个小圆点，页面轮播他也会移动-->
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+				<!--经营范围-->
+				<div class="information_subject">
+					<div class="information_subject_head"><span>—</span>&nbsp;<label>经营范围</label>&nbsp;<span>—</span></div>
+					<div class="information_subject_content">
+						<ul>
+							<li><img src="img/xcx.png"/></li>
+							<li><img src="img/gzh.png"/></li>
+							<li><img src="img/hfive.png"/></li>
+							<li><img src="img/ps.png"/></li>
+						</ul>
+					</div>
+				</div>
+				<!--企业价值观-->
+				<div class="information_subject">
+					<div class="information_subject_head"><span>—</span>&nbsp;<label>企业核心价值观</label>&nbsp;<span>—</span></div>
+					<div class="information_subject_content" id="jiazhiguan">
+						<p>企业核心价值观暂未确定</p>
+					</div>
+				</div>
+				<!--企业成员-->
+				<div class="information_subject">
+					<div class="information_subject_head"><span>—</span>&nbsp;<label>企业成员</label>&nbsp;<span>—</span></div>
+					<div id="qiyechengyuan">
+						<ul>
+							<li>
+								<label class="cy_name">Chris</label>
+								<p><span class="sc">擅长：</span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							</li>
+							<li>
+								<label class="cy_name">Suny</label>
+								<p><span class="sc">擅长：</span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							</li>
+							<li>
+								<label class="cy_name">Leos</label>
+								<p><span class="sc">擅长：</span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							</li>
+							<li>
+								<label class="cy_name">Sky</label>
+								<p><span class="sc">擅长：</span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							</li>
+							<li>
+								<label class="cy_name">Eagle</label>
+								<p><span class="sc">擅长：</span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							</li>
+							<li>
+								<label class="cy_name">Forest</label>
+								<p><span class="sc">擅长：</span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--企业故事-->
+					<div class="information_subject">
+						<div class="information_subject_head"><span>—</span>&nbsp;<label>企业发展故事</label>&nbsp;<span>—</span></div>
+						<div class="information_subject_content" id="gushi">
+							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+						</div>
+					</div>
+				<!--联系我们-->
+				<div class="information_subject">
+						<div class="information_subject_head"><span>—</span>&nbsp;<label>联系我们</label>&nbsp;<span>—</span></div>
+						<div class="information_subject_content" id="lxwm">
+							<p>电话:010-123456</p>
+							<p>邮箱:1234567890@qqcom</p>
+						</div>
+				</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/mui.min.js"></script>
+<script>
+	mui.init({
+		swipeBack: true //启用右滑关闭功能
+	});
+	var slider = mui("#slider");
+	slider.slider({
+		interval: 5000 //每隔5秒调用一次
+	});
+</script>

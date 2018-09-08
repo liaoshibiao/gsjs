@@ -1,0 +1,55 @@
+.information_subject_content ul li{
+	width:46%;height: 114px;background: skyblue;float: left;margin:2%  2%;
+	text-align: center;line-height: 114px;color:orangered;font-weight: bold;
+	font-size:20px;font-style: oblique;
+}
+.information_subject_content ul li img{
+	width:100%;height: 114px;
+}
+#jiazhiguan{
+	width: 100%;height:60px;text-align: center;
+}
+#jiazhiguan p{
+	line-height:60px;color: #ACACB4;
+}
+#qiyechengyuan{
+	width: 100%;height:392px;
+}
+#qiyechengyuan ul li{
+	width:46%;height: 114px;float: left;margin:2% 2%;position: relative;background: #FFFAFA;
+}
+
+.cy_name{
+	color: #333333;font-weight: bold;font-style: initial;font-size: 18px;
+	position: absolute;top:8%;left:8%;
+}
+#qiyechengyuan ul li p{
+	position: absolute;
+	top:30%;
+	left: 8%;
+	width:92%;
+    height: auto;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+	color: gray;
+}
+.sc{
+	color:#242424;font-weight: 300;
+}
+#gushi{
+	width:90%;height: auto;margin: 0 auto;
+}
+#gushi p{
+	width:100%;
+    height: auto;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+	color: gray;
+}
+#lxwm{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}

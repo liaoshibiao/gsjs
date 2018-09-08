@@ -1,0 +1,30 @@
+{
+	"index.html": {
+		"resources": [
+			"SystemPage.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"UserPage.html",
+			"SystemPage.html",
+			"MarketPage.html",
+			"CustomerPage.html"
+		]
+	},
+	"SystemPage.html": {
+		"resources": [
+			"img/2.jpg",
+			"img/guanggao.jpg",
+			"css/SystemPage.css",
+			"img/touxiang.jpg",
+			"img/1.jpg",
+			"img/anquan.ico",
+			"img/4.jpg",
+			"img/3.jpg",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}
